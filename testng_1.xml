@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Parallel test runs" parallel="tests" thread-count="2">
+ 
+<test name="T_01">
+    <classes>
+        <class name="Test1" ></class>
+    </classes>
+</test>
+ 
+<test name="T_02">
+    <classes>
+        <class name="src.tests.Test2" ></class>
+    </classes>
+</test>
+ 
+<test name="T_03">
+    <classes>
+        <class name="src.tests.Test3" ></class>
+    </classes>
+</test> 
+</suite>
