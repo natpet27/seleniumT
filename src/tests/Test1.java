@@ -6,9 +6,7 @@ import org.testng.annotations.Test;
 
 import framework.TestBase;
 
-public class Test1 {
-
-	public class Test01 extends TestBase {
+public class Test1 extends TestBase {
 
 		@Test
 		public void testLink() throws Exception {
@@ -19,6 +17,5 @@ public class Test1 {
 			textBox.sendKeys("Just a test!");
 			Thread.sleep(2000);
 		}
-	}
 
 }

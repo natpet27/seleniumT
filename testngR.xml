@@ -4,7 +4,7 @@
  
 <test name="T_01">
     <classes>
-        <class name="Test1" ></class>
+        <class name="src.tests.Test1" ></class>
     </classes>
 </test>
  
