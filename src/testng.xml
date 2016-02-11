@@ -5,19 +5,19 @@
  
 <test name="T_01">
     <classes>
-        <class name="src.tests.Test1" />
+        <class name="tests.Test1" />
     </classes>
 </test>
  
 <test name="T_02">
     <classes>
-        <class name="src.tests.Test2" />
+        <class name="tests.Test2" />
     </classes>
 </test>
  
 <test name="T_03">
     <classes>
-        <class name="src.tests.Test3" />
+        <class name="tests.Test3" />
     </classes>
 </test>
  
