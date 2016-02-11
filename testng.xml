@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Parallel test runs" parallel="tests" thread-count="2">
  
 <test name="T_01">
     <classes>
-        <class name="src.tests.Test1" ></class>
+        <class name="src.tests.Test1" />
     </classes>
 </test>
  
 <test name="T_02">
     <classes>
-        <class name="src.tests.Test2" ></class>
+        <class name="src.tests.Test2" />
     </classes>
 </test>
  
 <test name="T_03">
     <classes>
-        <class name="src.tests.Test3" ></class>
+        <class name="src.tests.Test3" />
     </classes>
 </test> 
 </suite>
